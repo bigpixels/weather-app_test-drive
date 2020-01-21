@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form method="get">
+        <fieldset>
+            <ul>
+                <li>
+                    <label for="latitude">Latitude</label>
+                    <input type="text" id="latitude" placeholder="e.g. 46.444003" required>
+                </li>
+     
+                <li>
+                    <label for="longitude">Longitude</label>
+                    <input type="text" id="longitude" placeholder="e.g. 30.748728" required>
+                </li>
+                <li>
+                    <label for="city-search">City Name</label>
+                    <input type="text" id="city-search" placeholder="e.g. Rochester, NY">
+                </li>
+            </ul>
+        </fieldset>
+        <button>Get Weather</button>
+        <div clas="map" id="map"></div>
+    </form> -->
+
+    <input id="pac-input" class="controls" type="text"
+        placeholder="Enter a location">
+    <div id="lat"></div>
+    <div id="long"></div>
+
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfWu_rmDBIwlSLZwVzcLyFhvhiEAQP0r8&callback=initMap"
+    async defer></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfWu_rmDBIwlSLZwVzcLyFhvhiEAQP0r8&libraries=places,geometry"></script>
+    <script src="js/jquery-min.js"></script>
+    <script src="js/dark_sky.js"></script>
+    
+</body>
+</html>
